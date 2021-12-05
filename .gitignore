@@ -1,4 +1,4 @@
 .terraform
-terraform.tfvar
+terraform.tfvars
 .terraform.lock*
 *.tfstate.*
