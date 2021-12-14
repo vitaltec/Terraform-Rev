@@ -1,4 +1,4 @@
-variable "bucket_name" {
+variable "mumis-bucket" {
     type = string
 
 }

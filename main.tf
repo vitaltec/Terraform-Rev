@@ -12,7 +12,7 @@
 # The `bucket_name` variable is defined in the `variable.tf` file.
 resource "aws_s3_bucket" "data_team_bucket" {
 
-  bucket = var.bucket_name   
+  bucket = var.mumis-bucket   
   acl    = "private"  
   server_side_encryption_configuration {
         rule {
